@@ -2,22 +2,34 @@
 
 مثال
 ۱-این دو دارای یک اوریجین هستند; زیرا دارای پروتکل یکسان(http) و دامنه یکسان(example.com) هستند. مسیر متفاوت فایل ها باعث تغییر اوریجین نمی‌شود(app1, app2)
+
 http://example.com/app1/index.html
+
 http://example.com/app2/index.html 
 
 ۲-ازآنجایی که سرور محتوای http را به صورت پیش‌فرض از پورت ۸۰ میفرستد این دو اوریجین یکسان هستند.
+
 http://Example.com:80
+
 http://example.com
 
 ۳-پروتکل های متفاوت باعث شده این دو از یک اوریجین نباشند.
+
 http://example.com/app1
+
 https://example.com/app2
 
 ۴-اوریجین های زیریکسان نیستند چون از دامنه های متفاوت استفاده می‌کنند.
+
 http://example.com
+
 http://www.example.com
+
 http://myapp.example.com
 
 ۵-اوریجین های زیر از دو پورت متفاوت استفاده می‌کنند و یکسان نیستند.
+
 http://example.com
+
 http://example.com:8080
+
